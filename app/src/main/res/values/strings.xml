@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Musique</string>
+
+    <!--Shared-->
+    <string name="musicName">Açúcar ou adoçante?</string>
+    <string name="musicArtist">Cícero</string>
+    <string name="buttonList">Músicas</string>
+    <string name="buttonPlayer">Player</string>
+    <string name="buttonShopping">Compre</string>
+
+    <!--MainActivity-->
+    <string name="homeText">Tela principal do player de música. Controles da música são destinados aqui junto com a exposição da capa do album da música. Conta com uma SeekBar para apresentar ao usuário a posição do player na música atual.</string>
+
+    <!--ListActivity-->
+    <string name="listText">Listagem de todas as possíveis músicas do usuário no dispositivo.</string>
+
+    <!--ShopActivity-->
+    <string name="price">R$ 31.12</string>
+    <string name="addCart">Adicionar ao Carrinho</string>
+    <string name="payGpay">Pagar com G Pay</string>
+    <string name="shopText">Tela para compra de músicas online. Funciona com a API Google Pay. Ao pressionar o botão, solicita o débito do valor da conta do Google do usuário.</string>
+
+</resources>
