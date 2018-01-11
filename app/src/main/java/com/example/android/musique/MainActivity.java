@@ -26,22 +26,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(callList);
                 }
             });
-
         }
 
-//        Button buttonShop = findViewById(R.id.shopButton);
-//        if (buttonShop != null){
-//            buttonShop.setOnClickListener(new OnClickListener( ) {
-//                @Override
-//                public void onClick( View v ) {
-//                    Intent i = new Intent(MainActivity.this,ShopActivity.class);
-//                    startActivity(i);
-//                }
-//            });
-//        }
-    }
-    //Do intent on Button shopButton
-    public void buttonIntent(){
         Button buttonShop = findViewById(R.id.shopButton);
         if (buttonShop != null){
             buttonShop.setOnClickListener(new OnClickListener( ) {
