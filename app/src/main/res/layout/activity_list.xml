@@ -45,12 +45,38 @@
 
         </LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-    <TextView
-        android:layout_marginVertical="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/listText"/>
+            <Button
+                android:id="@+id/homeButton"
+                android:paddingHorizontal="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonPlayer"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/shopButton"
+                android:paddingHorizontal="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonShopping"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listText"/>
+
+    </LinearLayout>
 
 </ScrollView>

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.TextView;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        TextView buttonList = findViewById(R.id.listButton);
-
+        Button buttonList = findViewById(R.id.listButton);
         if (buttonList != null){
             buttonList.setOnClickListener(new OnClickListener( ) {
 
@@ -28,6 +27,30 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+        }
+
+//        Button buttonShop = findViewById(R.id.shopButton);
+//        if (buttonShop != null){
+//            buttonShop.setOnClickListener(new OnClickListener( ) {
+//                @Override
+//                public void onClick( View v ) {
+//                    Intent i = new Intent(MainActivity.this,ShopActivity.class);
+//                    startActivity(i);
+//                }
+//            });
+//        }
+    }
+    //Do intent on Button shopButton
+    public void buttonIntent(){
+        Button buttonShop = findViewById(R.id.shopButton);
+        if (buttonShop != null){
+            buttonShop.setOnClickListener(new OnClickListener( ) {
+                @Override
+                public void onClick( View v ) {
+                    Intent i = new Intent(MainActivity.this,ShopActivity.class);
+                    startActivity(i);
+                }
+            });
         }
     }
 }

@@ -71,25 +71,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/homeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/buttonPlayer"
-                android:textAllCaps="true" />
 
             <Button
                 android:id="@+id/listButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingHorizontal="50dp"
                 android:layout_marginHorizontal="20dp"
                 android:text="@string/buttonList"
                 android:textAllCaps="true" />
 
             <Button
+                android:paddingHorizontal="50dp"
                 android:id="@+id/shopButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -101,6 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
             android:text="@string/homeText" />
     </LinearLayout>
 

@@ -328,6 +328,7 @@
             android:gravity="bottom"
             android:layout_gravity="center"
             android:orientation="vertical"
+            android:layout_marginVertical="20dp"
             android:layout_width="300dp"
             android:layout_height="wrap_content">
 
@@ -341,6 +342,40 @@
                 android:text="@string/payGpay"/>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/homeButton"
+                android:paddingHorizontal="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonPlayer"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/listButton"
+                android:paddingHorizontal="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/buttonList"
+                android:textAllCaps="true" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopText"/>
 
     </LinearLayout>
 
